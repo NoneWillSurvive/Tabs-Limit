@@ -1,0 +1,19 @@
+﻿{
+  "manifest_version": 2,
+
+  "name": "10 Tabs Limit",
+  "description": "Открывать можно не больше 10 вкладок",
+  "version": "1.02",
+  
+  "background": {
+    "scripts": ["script.js"],
+    "persistent": false
+  },
+  
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
